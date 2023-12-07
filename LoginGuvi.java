@@ -19,9 +19,9 @@ public class LoginGuvi {
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h2[text()='Input/Output']//parent::div//following-sibling::div//a[text()='Start']"))).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[text()='Login'])[2]"))).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[text()='Email Address']//parent::div//following-sibling::input[@type='email']"))).click();
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[text()='Email Address']//parent::div//following-sibling::input[@type='email']"))).sendKeys("tmvthirumalai@gmail.com");
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[text()='Email Address']//parent::div//following-sibling::input[@type='email']"))).sendKeys("tmvthirum@gmail.com");
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[text()='Password']//parent::div//following-sibling::input[@type='password']"))).click();
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[text()='Password']//parent::div//following-sibling::input[@type='password']"))).sendKeys("Tp#6379616155");
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[text()='Password']//parent::div//following-sibling::input[@type='password']"))).sendKeys("Tp#63616155");
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@id='login-btn']"))).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h2[text()='Input/Output']//parent::div//following-sibling::div//a[text()='Start']"))).click();
 		if(driver.getCurrentUrl().equals("https://www.guvi.in/code-kata/")) {
