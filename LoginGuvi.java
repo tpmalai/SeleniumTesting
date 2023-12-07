@@ -24,7 +24,7 @@ public class LoginGuvi {
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//label[text()='Password']//parent::div//following-sibling::input[@type='password']"))).sendKeys("Tp#6379616155");
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@id='login-btn']"))).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h2[text()='Input/Output']//parent::div//following-sibling::div//a[text()='Start']"))).click();
-		if(driver.getCurrentUrl().equals("\"https://www.guvi.in/code-kata/\"")) {
+		if(driver.getCurrentUrl().equals("https://www.guvi.in/code-kata/")) {
 			System.out.println("Passed");
 		}
 		else {
